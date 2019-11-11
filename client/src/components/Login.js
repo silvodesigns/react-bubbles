@@ -7,6 +7,13 @@ const Login = () => {
     <>
       <h1>Welcome to the Bubble App!</h1>
       <p>Build a login page here</p>
+      <form>
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+            <button>Log In</button>
+
+
+      </form>
     </>
   );
 };
