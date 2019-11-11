@@ -16,7 +16,7 @@ useEffect(()=> {
 
       axiosWithAuth().get('http://localhost:5000/api/colors')
       .then(res => {
-          console.log(res, "result from get colors")
+          setColorList(res.data)
       })
       .catch( err => {
           console.log(err, "this is an error duh")
